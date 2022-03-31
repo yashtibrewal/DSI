@@ -16,7 +16,6 @@ int main () {
 	cout << "Enter in your CNF: ";
   	if (yyparse() != 0) {
 		cout << "Can't parse your CNF.\n";
-		exit (1);
 	}
 
 	// suck up the schema from the file
